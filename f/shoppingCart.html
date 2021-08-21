@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="shoppingCart.css">
+        <script type="text/javascript" src="shopingCart.js"></script>
+    </head>
+    <body>
+        
+       <div class="container">
+           <div class="card" id="item1">
+               <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/23/949887/1.jpg?8967">
+            <div class="title">RED HEELS</div>
+            <div>
+                <label>SIZE:</label>
+                <select>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>34</option>
+                    <option>36</option>
+                </select>
+            </div>
+            <div class="price">$70</div>
+            <button onclick="addToCart(item1)">Add to Cart</button>
+           </div>
+           <div class="card" id="item2">
+            <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/27/019276/1.jpg?1553">"
+         <div class="title">WHITE HEELS</div>
+         <div>
+             <label>SIZE:</label>
+             <select>
+                 <option>30</option>
+                 <option>32</option>
+                 <option>34</option>
+                 <option>36</option>
+             </select>
+         </div>
+         <div class="price"> $50</div>
+         <button onclick="addToCart(item1)">Add to Cart</button>
+        </div>
+       </div>
+       <!--<div class="cart" id="cart">
+           <div class="title">CART</div><hr>
+           <div id="title"></div>
+       </div>-->
+    </body>
+    
+</html>

@@ -1,0 +1,104 @@
+.main-menu li{
+    list-style-type: none;
+    display:inline-block;
+    margin-left: 90px;  
+}
+.main-menu li a{
+    text-decoration: none;
+    color: black;
+    
+}
+ li a.active{
+    color: red;
+}
+.main-menu li a:hover{
+    color: red
+}
+
+.logo{
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+.dropbtn {
+    color:black;
+     background-color: white;
+     border: none;
+     cursor: pointer;
+   }
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 3px;
+    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #fff;
+  }  
+
+.intro{
+    margin-left:100px;
+}
+.tea{
+    display: flex;
+}
+button{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.admission-button{
+    border: 2px solid rgb(161, 51, 51);
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: large;
+}
+.admission-button a{
+    text-decoration: none;
+    color: black;
+}
+.admission-button:hover{
+    box-shadow: 0 0 5px 5px rgb(216, 214, 214) inset;
+}
+
+/*Carousel*/
+.carousel-item{
+    height: 32rem;
+    background: #333;
+    color: #fff;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.overlayimage{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+}

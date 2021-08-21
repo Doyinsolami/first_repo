@@ -1,0 +1,118 @@
+.carousel-item{
+    height: 32rem;
+    background: #333;
+    color: #fff;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.overlayimage{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.intro{
+    margin-left:100px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+ .para{
+    margin-left:100px;
+    margin-right: 100px;
+ }
+.tea{
+    display: flex;
+}
+button{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.admission-button{
+    border: 2px solid rgb(161, 51, 51);
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: large;
+}
+.admission-button a{
+    text-decoration: none;
+    color: black;
+}
+.admission-button:hover{
+    box-shadow: 0 0 5px 5px rgb(128, 43, 43) inset;
+}
+.navbar-brand{
+    font-family: cursive;
+    font-size: 35px;
+}
+.navbar-nav{
+    margin-left: 700px;
+}
+.cards{
+    display: flex;
+    margin-left: 200px;
+}
+.card{
+    margin-right: 60px;
+}
+.para{
+   word-spacing: 10px;
+}
+.footer{
+    background-color: black;
+    color: #fff;
+  
+}
+.contact{
+    margin-left: 100px;
+}
+.footer-links{
+    display: flex;
+}
+.quick-links{
+    padding-left: 70px;
+}
+.quick-links a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.bread{
+    padding-left: 30px ;
+}
+.butter{
+    padding-left: 25px;
+}
+.footer i{
+    color: green;
+}
+.copyright{
+    background-color: red;
+    padding-top:20px;
+    color: #fff;
+    font-weight: 70px;
+    text-align: center;
+}
+.goto{
+    padding-left: 1200px;
+    padding-top: 0px;
+}
+.goto a{
+    color: green;
+}
